@@ -1,11 +1,56 @@
+body{
+    background: blue;
+}
 .main-div{
     background: black;
-    color: wheat;
     height: 17em;
     width: 25em;
+    margin-left: 491px;
+    margin-top: 10em;
 }
 .output{
     margin: 41px;
-    width: 184px;
+    text-align: center;
     height: 33px;
+    pointer-events: none;
+    background: black;
+    color: white;
+    border: none;
+    margin-left: 22px;
+    width: 19em;
+    margin-top: 5em;
+    font-size: 18px;
 }
+.click-button{
+    margin-left: 74px;
+    width: 10em;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 24px;
+    margin-top: 28px;
+}
+.line{
+    color: white;
+    background: white;
+    height: 1px;
+    width: 7em;
+    margin-left: 138px;
+    margin-top: -41px;
+}
+.range-line{
+    margin-left: 80px;
+    width: 229px;
+    margin-top: 40px;
+    height: 9px;
+}
+.leng{
+    margin-left: 4px;
+    width: 12px;
+    text-align: center;
+    height: 13px;
+    pointer-events: none;
+    background: black;
+    border: none;
+    color: white;
+} 
